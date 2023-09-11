@@ -1,0 +1,434 @@
+{
+  "airports": [
+    {
+      "id": 1,
+      "name": "John Doe International Airport",
+      "code": "JDI",
+      "city": "New York",
+      "country": "United States"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith Airport",
+      "code": "JSA",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson Airport",
+      "code": "MJA",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 4,
+      "name": "Maria Garcia International Airport",
+      "code": "MGIA",
+      "city": "Madrid",
+      "country": "Spain"
+    },
+    {
+      "id": 5,
+      "name": "Tokyo Skyport",
+      "code": "TSK",
+      "city": "Tokyo",
+      "country": "Japan"
+    },
+    {
+      "id": 6,
+      "name": "Sydney Kingsford Smith Airport",
+      "code": "SYD",
+      "city": "Sydney",
+      "country": "Australia"
+    },
+    {
+      "id": 7,
+      "name": "Berlin Brandenburg Airport",
+      "code": "BER",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "id": 8,
+      "name": "Rio de Janeiro Galeão Airport",
+      "code": "GIG",
+      "city": "Rio de Janeiro",
+      "country": "Brazil"
+    },
+    {
+      "id": 9,
+      "name": "Cape Town International Airport",
+      "code": "CPT",
+      "city": "Cape Town",
+      "country": "South Africa"
+    },
+    {
+      "id": 10,
+      "name": "Moscow Sheremetyevo Airport",
+      "code": "SVO",
+      "city": "Moscow",
+      "country": "Russia"
+    },
+    {
+      "id": 11,
+      "name": "Paris Charles de Gaulle Airport",
+      "code": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
+    {
+      "id": 12,
+      "name": "Toronto Pearson Airport",
+      "code": "YYZ",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 13,
+      "name": "Dubai International Airport",
+      "code": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    {
+      "id": 14,
+      "name": "Singapore Changi Airport",
+      "code": "SIN",
+      "city": "Singapore",
+      "country": "Singapore"
+    },
+    {
+      "id": 15,
+      "name": "Hong Kong International Airport",
+      "code": "HKG",
+      "city": "Hong Kong",
+      "country": "Hong Kong"
+    },
+    {
+      "id": 16,
+      "name": "Rome Fiumicino Airport",
+      "code": "FCO",
+      "city": "Rome",
+      "country": "Italy"
+    },
+    {
+      "id": 17,
+      "name": "Istanbul Atatürk Airport",
+      "code": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    {
+      "id": 18,
+      "name": "Mexico City International Airport",
+      "code": "MEX",
+      "city": "Mexico City",
+      "country": "Mexico"
+    },
+    {
+      "id": 19,
+      "name": "Beijing Capital International Airport",
+      "code": "PEK",
+      "city": "Beijing",
+      "country": "China"
+    }
+  ],
+  "flights": [
+    {
+      "id": 1,
+      "flightCode": "JDI123",
+      "departureAirport": "John Doe International Airport",
+      "arrivalAirport": "Jane Smith Airport",
+      "departureCity": "New York",
+      "arrivalCity": "Los Angeles",
+      "departureCountry": "United States",
+      "arrivalCountry": "United States",
+      "departureDate": "2023-08-20T08:00:00",
+      "arrivalDate": "2023-08-20T12:00:00",
+      "flightTime": "04h 00m",
+
+      "price": 250.0
+    },
+    {
+      "id": 2,
+      "flightCode": "MJA456",
+      "departureAirport": "Michael Johnson Airport",
+      "arrivalAirport": "Maria Garcia International Airport",
+      "departureCity": "London",
+      "arrivalCity": "Madrid",
+      "departureCountry": "United Kingdom",
+      "arrivalCountry": "Spain",
+      "departureDate": "2023-08-21T10:30:00",
+      "arrivalDate": "2023-08-21T14:30:00",
+      "flightTime": "04h 00m",
+      "price": 320.0
+    },
+    {
+      "id": 3,
+      "flightCode": "TSK789",
+      "departureAirport": "Tokyo Skyport",
+      "arrivalAirport": "Sydney Kingsford Smith Airport",
+      "departureCity": "Tokyo",
+      "arrivalCity": "Sydney",
+      "departureCountry": "Japan",
+      "arrivalCountry": "Australia",
+      "departureDate": "2023-08-22T15:15:00",
+      "arrivalDate": "2023-08-23T07:30:00",
+      "flightTime": "09h 15m",
+      "price": 650.0
+    },
+    {
+      "id": 4,
+      "flightCode": "CDG101",
+      "departureAirport": "Paris Charles de Gaulle Airport",
+      "arrivalAirport": "Toronto Pearson Airport",
+      "departureCity": "Paris",
+      "arrivalCity": "Toronto",
+      "departureCountry": "France",
+      "arrivalCountry": "Canada",
+      "departureDate": "2023-08-24T14:00:00",
+      "arrivalDate": "2023-08-24T16:30:00",
+      "flightTime": "08h 30m",
+      "price": 420.0
+    },
+    {
+      "id": 5,
+      "flightCode": "DXB512",
+      "departureAirport": "Dubai International Airport",
+      "arrivalAirport": "Singapore Changi Airport",
+      "departureCity": "Dubai",
+      "arrivalCity": "Singapore",
+      "departureCountry": "United Arab Emirates",
+      "arrivalCountry": "Singapore",
+      "departureDate": "2023-08-25T22:45:00",
+      "arrivalDate": "2023-08-26T08:30:00",
+      "flightTime": "07h 45m",
+      "price": 550.0
+    },
+    {
+      "id": 6,
+      "flightCode": "HKG234",
+      "departureAirport": "Hong Kong International Airport",
+      "arrivalAirport": "Rome Fiumicino Airport",
+      "departureCity": "Hong Kong",
+      "arrivalCity": "Rome",
+      "departureCountry": "Hong Kong",
+      "arrivalCountry": "Italy",
+      "departureDate": "2023-08-27T12:30:00",
+      "arrivalDate": "2023-08-27T20:00:00",
+      "flightTime": "12h 30m",
+      "price": 700.0
+    },
+    {
+      "id": 7,
+      "flightCode": "IST777",
+      "departureAirport": "Istanbul Atatürk Airport",
+      "arrivalAirport": "Mexico City International Airport",
+      "departureCity": "Istanbul",
+      "arrivalCity": "Mexico City",
+      "departureCountry": "Turkey",
+      "arrivalCountry": "Mexico",
+      "departureDate": "2023-08-28T08:15:00",
+      "arrivalDate": "2023-08-28T19:00:00",
+      "flightTime": "14h 45m",
+      "price": 780.0
+    },
+    {
+      "id": 8,
+      "flightCode": "PEK888",
+      "departureAirport": "Beijing Capital International Airport",
+      "arrivalAirport": "Sydney Kingsford Smith Airport",
+      "departureCity": "Beijing",
+      "arrivalCity": "Sydney",
+      "departureCountry": "China",
+      "arrivalCountry": "Australia",
+      "departureDate": "2023-08-29T16:20:00",
+      "arrivalDate": "2023-08-30T05:00:00",
+      "flightTime": "10h 40m",
+      "price": 720.0
+    },
+    {
+      "id": 9,
+      "flightCode": "BER246",
+      "departureAirport": "Berlin Brandenburg Airport",
+      "arrivalAirport": "Rio de Janeiro Galeão Airport",
+      "departureCity": "Berlin",
+      "arrivalCity": "Rio de Janeiro",
+      "departureCountry": "Germany",
+      "arrivalCountry": "Brazil",
+      "departureDate": "2023-08-31T07:30:00",
+      "arrivalDate": "2023-08-31T15:45:00",
+      "flightTime": "14h 15m",
+      "price": 850.0
+    },
+    {
+      "id": 10,
+      "flightCode": "CPT333",
+      "departureAirport": "Cape Town International Airport",
+      "arrivalAirport": "Moscow Sheremetyevo Airport",
+      "departureCity": "Cape Town",
+      "arrivalCity": "Moscow",
+      "departureCountry": "South Africa",
+      "arrivalCountry": "Russia",
+      "departureDate": "2023-09-01T11:00:00",
+      "arrivalDate": "2023-09-02T01:30:00",
+      "flightTime": "12h 30m",
+      "price": 710.0
+    },
+    {
+      "id": 11,
+      "flightCode": "SYD555",
+      "departureAirport": "Sydney Kingsford Smith Airport",
+      "arrivalAirport": "Paris Charles de Gaulle Airport",
+      "departureCity": "Sydney",
+      "arrivalCity": "Paris",
+      "departureCountry": "Australia",
+      "arrivalCountry": "France",
+      "departureDate": "2023-09-03T09:45:00",
+      "arrivalDate": "2023-09-03T17:15:00",
+      "flightTime": "20h 30m",
+      "price": 980.0
+    },
+    {
+      "id": 12,
+      "flightCode": "MEX777",
+      "departureAirport": "Mexico City International Airport",
+      "arrivalAirport": "Beijing Capital International Airport",
+      "departureCity": "Mexico City",
+      "arrivalCity": "Beijing",
+      "departureCountry": "Mexico",
+      "arrivalCountry": "China",
+      "departureDate": "2023-09-04T13:00:00",
+      "arrivalDate": "2023-09-05T05:30:00",
+      "flightTime": "14h 30m",
+      "price": 850.0
+    },
+    {
+      "id": 13,
+      "flightCode": "JSA444",
+      "departureAirport": "Jane Smith Airport",
+      "arrivalAirport": "Tokyo Skyport",
+      "departureCity": "Los Angeles",
+      "arrivalCity": "Tokyo",
+      "departureCountry": "United States",
+      "arrivalCountry": "Japan",
+      "departureDate": "2023-09-06T15:30:00",
+      "arrivalDate": "2023-09-07T09:00:00",
+      "flightTime": "11h 30m",
+      "price": 720.0
+    },
+    {
+      "id": 14,
+      "flightCode": "SVO666",
+      "departureAirport": "Moscow Sheremetyevo Airport",
+      "arrivalAirport": "Hong Kong International Airport",
+      "departureCity": "Moscow",
+      "arrivalCity": "Hong Kong",
+      "departureCountry": "Russia",
+      "arrivalCountry": "Hong Kong",
+      "departureDate": "2023-09-08T08:45:00",
+      "arrivalDate": "2023-09-08T19:30:00",
+      "flightTime": "10h 45m",
+      "price": 790.0
+    },
+    {
+      "id": 15,
+      "flightCode": "FCO222",
+      "departureAirport": "Rome Fiumicino Airport",
+      "arrivalAirport": "Istanbul Atatürk Airport",
+      "departureCity": "Rome",
+      "arrivalCity": "Istanbul",
+      "departureCountry": "Italy",
+      "arrivalCountry": "Turkey",
+      "departureDate": "2023-09-09T10:00:00",
+      "arrivalDate": "2023-09-09T18:15:00",
+      "flightTime": "08h 15m",
+      "price": 570.0
+    },
+    {
+      "id": 16,
+      "flightCode": "GIG111",
+      "departureAirport": "Rio de Janeiro Galeão Airport",
+      "arrivalAirport": "Dubai International Airport",
+      "departureCity": "Rio de Janeiro",
+      "arrivalCity": "Dubai",
+      "departureCountry": "Brazil",
+      "arrivalCountry": "United Arab Emirates",
+      "departureDate": "2023-09-10T14:30:00",
+      "arrivalDate": "2023-09-11T02:30:00",
+      "flightTime": "17h 00m",
+      "price": 950.0
+    },
+    {
+      "id": 17,
+      "flightCode": "YYZ777",
+      "departureAirport": "Toronto Pearson Airport",
+      "arrivalAirport": "Berlin Brandenburg Airport",
+      "departureCity": "Toronto",
+      "arrivalCity": "Berlin",
+      "departureCountry": "Canada",
+      "arrivalCountry": "Germany",
+      "departureDate": "2023-09-12T11:15:00",
+      "arrivalDate": "2023-09-12T20:30:00",
+      "flightTime": "08h 15m",
+      "price": 550.0
+    },
+    {
+      "id": 18,
+      "flightCode": "DXB888",
+      "departureAirport": "Dubai International Airport",
+      "arrivalAirport": "Hong Kong International Airport",
+      "departureCity": "Dubai",
+      "arrivalCity": "Hong Kong",
+      "departureCountry": "United Arab Emirates",
+      "arrivalCountry": "Hong Kong",
+      "departureDate": "2023-09-13T15:45:00",
+      "arrivalDate": "2023-09-14T01:00:00",
+      "flightTime": "07h 15m",
+      "price": 600.0
+    },
+    {
+      "id": 19,
+      "flightCode": "CPT444",
+      "departureAirport": "Cape Town International Airport",
+      "arrivalAirport": "Paris Charles de Gaulle Airport",
+      "departureCity": "Cape Town",
+      "arrivalCity": "Paris",
+      "departureCountry": "South Africa",
+      "arrivalCountry": "France",
+      "departureDate": "2023-09-15T10:30:00",
+      "arrivalDate": "2023-09-15T19:00:00",
+      "flightTime": "14h 30m",
+      "price": 780.0
+    },
+    {
+      "id": 20,
+      "flightCode": "TSK999",
+      "departureAirport": "Tokyo Skyport",
+      "arrivalAirport": "Sydney Kingsford Smith Airport",
+      "departureCity": "Tokyo",
+      "arrivalCity": "Sydney",
+      "departureCountry": "Japan",
+      "arrivalCountry": "Australia",
+      "departureDate": "2023-09-16T12:00:00",
+      "arrivalDate": "2023-09-17T03:30:00",
+      "flightTime": "09h 30m",
+      "price": 720.0
+    },
+    {
+      "id": 21,
+      "flightCode": "TSK239",
+      "departureAirport": "Tokyo Skyport",
+      "arrivalAirport": "Sydney Kingsford Smith Airport",
+      "departureCity": "Tokyo",
+      "arrivalCity": "Sydney",
+      "departureCountry": "Japan",
+      "arrivalCountry": "Australia",
+      "departureDate": "2023-09-16T12:00:00",
+      "arrivalDate": "2023-09-17T03:30:00",
+      "flightTime": "09h 30m",
+      "price": 720.0
+    }
+  ]
+}

@@ -1,0 +1,2276 @@
+{
+  "airports": [
+    {
+      "id": 1,
+      "name": "Istanbul Airport",
+      "code": "IST",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    {
+      "id": 2,
+      "name": "Los Angeles International Airport",
+      "code": "LAX",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 3,
+      "name": "Heathrow Airport",
+      "code": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 4,
+      "name": "Charles de Gaulle Airport",
+      "code": "CDG",
+      "city": "Paris",
+      "country": "France"
+    },
+    {
+      "id": 5,
+      "name": "Tokyo Haneda Airport",
+      "code": "HND",
+      "city": "Tokyo",
+      "country": "Japan"
+    },
+    {
+      "id": 6,
+      "name": "Dubai International Airport",
+      "code": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    {
+      "id": 7,
+      "name": "Sydney Kingsford Smith Airport",
+      "code": "SYD",
+      "city": "Sydney",
+      "country": "Australia"
+    },
+    {
+      "id": 8,
+      "name": "Johannesburg O.R. Tambo International Airport",
+      "code": "JNB",
+      "city": "Johannesburg",
+      "country": "South Africa"
+    },
+    {
+      "id": 9,
+      "name": "Beijing Capital International Airport",
+      "code": "PEK",
+      "city": "Beijing",
+      "country": "China"
+    },
+    {
+      "id": 10,
+      "name": "Toronto Pearson International Airport",
+      "code": "YYZ",
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  ],
+  "flights": [
+    {
+      "id": 594,
+      "flightCode": "LAX-IST",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-21T12:42:00",
+      "arrivalDate": "2023-10-22T03:45:00",
+      "flightTime": 903,
+      "price": 122
+    },
+    {
+      "id": 357,
+      "flightCode": "CDG-IST",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:00",
+      "arrivalDate": "2023-10-11T17:03:00",
+      "flightTime": 261,
+      "price": 123
+    },
+    {
+      "id": 226,
+      "flightCode": "PEK-SYD",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:00",
+      "arrivalDate": "2023-10-12T11:51:00",
+      "flightTime": 1389,
+      "price": 149
+    },
+    {
+      "id": 969,
+      "flightCode": "LAX-CDG",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T03:36:44.891Z",
+      "flightTime": 894,
+      "price": 135
+    },
+    {
+      "id": 645,
+      "flightCode": "YYZ-LHR",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-12T12:42:29.458Z",
+      "arrivalDate": "2023-10-13T07:22:29.624Z",
+      "flightTime": 1120,
+      "price": 297
+    },
+    {
+      "id": 545,
+      "flightCode": "HND-IST",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-12T12:42:29.458Z",
+      "arrivalDate": "2023-10-13T03:31:51.350Z",
+      "flightTime": 889,
+      "price": 415
+    },
+    {
+      "id": 490,
+      "flightCode": "IST-DXB",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-12T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T19:41:45.709Z",
+      "flightTime": 419,
+      "price": 257
+    },
+    {
+      "id": 323,
+      "flightCode": "HND-JNB",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-14T12:42:29.458Z",
+      "arrivalDate": "2023-10-14T22:13:48.117Z",
+      "flightTime": 571,
+      "price": 419
+    },
+    {
+      "id": 204,
+      "flightCode": "YYZ-PEK",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-15T12:42:29.458Z",
+      "arrivalDate": "2023-10-16T12:01:41.396Z",
+      "flightTime": 1399,
+      "price": 464
+    },
+    {
+      "id": 250,
+      "flightCode": "HND-CDG",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-21T12:42:29.458Z",
+      "arrivalDate": "2023-10-22T05:08:35.897Z",
+      "flightTime": 986,
+      "price": 253
+    },
+    {
+      "id": 308,
+      "flightCode": "SYD-YYZ",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T07:44:08.852Z",
+      "flightTime": 1142,
+      "price": 324
+    },
+    {
+      "id": 926,
+      "flightCode": "PEK-HND",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T20:45:46.360Z",
+      "flightTime": 483,
+      "price": 202
+    },
+    {
+      "id": 356,
+      "flightCode": "LHR-DXB",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T22:56:08.842Z",
+      "flightTime": 614,
+      "price": 261
+    },
+    {
+      "id": 263,
+      "flightCode": "HND-LHR",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T05:07:44.135Z",
+      "flightTime": 985,
+      "price": 271
+    },
+    {
+      "id": 112,
+      "flightCode": "YYZ-DXB",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T15:50:03.244Z",
+      "flightTime": 188,
+      "price": 372
+    },
+    {
+      "id": 198,
+      "flightCode": "JNB-CDG",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T16:24:23.999Z",
+      "flightTime": 222,
+      "price": 593
+    },
+    {
+      "id": 439,
+      "flightCode": "HND-PEK",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T20:16:47.649Z",
+      "flightTime": 454,
+      "price": 207
+    },
+    {
+      "id": 947,
+      "flightCode": "LAX-PEK",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T05:18:20.206Z",
+      "flightTime": 996,
+      "price": 287
+    },
+    {
+      "id": 199,
+      "flightCode": "YYZ-SYD",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T01:29:58.513Z",
+      "flightTime": 767,
+      "price": 211
+    },
+    {
+      "id": 637,
+      "flightCode": "CDG-JNB",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T12:25:21.510Z",
+      "flightTime": 1423,
+      "price": 576
+    },
+    {
+      "id": 436,
+      "flightCode": "PEK-IST",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T12:39:06.968Z",
+      "flightTime": 1437,
+      "price": 139
+    },
+    {
+      "id": 501,
+      "flightCode": "LAX-HND",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T03:15:41.922Z",
+      "flightTime": 873,
+      "price": 510
+    },
+    {
+      "id": 206,
+      "flightCode": "LHR-CDG",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T18:49:43.868Z",
+      "flightTime": 367,
+      "price": 598
+    },
+    {
+      "id": 103,
+      "flightCode": "IST-YYZ",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T00:34:36.379Z",
+      "flightTime": 712,
+      "price": 168
+    },
+    {
+      "id": 126,
+      "flightCode": "IST-YYZ",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T21:15:05.450Z",
+      "flightTime": 513,
+      "price": 210
+    },
+    {
+      "id": 177,
+      "flightCode": "YYZ-LAX",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T10:16:06.742Z",
+      "flightTime": 1294,
+      "price": 184
+    },
+    {
+      "id": 476,
+      "flightCode": "HND-JNB",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T02:28:02.878Z",
+      "flightTime": 826,
+      "price": 555
+    },
+    {
+      "id": 64,
+      "flightCode": "SYD-YYZ",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T11:11:40.779Z",
+      "flightTime": 1349,
+      "price": 248
+    },
+    {
+      "id": 101,
+      "flightCode": "YYZ-HND",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T15:58:57.184Z",
+      "flightTime": 196,
+      "price": 518
+    },
+    {
+      "id": 14,
+      "flightCode": "HND-JNB",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T12:32:17.700Z",
+      "flightTime": 1430,
+      "price": 582
+    },
+    {
+      "id": 335,
+      "flightCode": "JNB-IST",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T06:14:52.398Z",
+      "flightTime": 1052,
+      "price": 259
+    },
+    {
+      "id": 168,
+      "flightCode": "LAX-YYZ",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T07:30:26.819Z",
+      "flightTime": 1128,
+      "price": 293
+    },
+    {
+      "id": 919,
+      "flightCode": "JNB-CDG",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T04:28:58.748Z",
+      "flightTime": 946,
+      "price": 295
+    },
+    {
+      "id": 21,
+      "flightCode": "LAX-YYZ",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T00:48:22.916Z",
+      "flightTime": 726,
+      "price": 178
+    },
+    {
+      "id": 147,
+      "flightCode": "SYD-PEK",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T03:00:48.406Z",
+      "flightTime": 858,
+      "price": 421
+    },
+    {
+      "id": 711,
+      "flightCode": "LHR-CDG",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T21:07:10.898Z",
+      "flightTime": 505,
+      "price": 138
+    },
+    {
+      "id": 701,
+      "flightCode": "PEK-LAX",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T12:05:42.133Z",
+      "flightTime": 1403,
+      "price": 289
+    },
+    {
+      "id": 676,
+      "flightCode": "LHR-IST",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T21:02:48.645Z",
+      "flightTime": 500,
+      "price": 586
+    },
+    {
+      "id": 764,
+      "flightCode": "HND-IST",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T10:19:45.415Z",
+      "flightTime": 1297,
+      "price": 570
+    },
+    {
+      "id": 407,
+      "flightCode": "IST-SYD",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T06:16:04.594Z",
+      "flightTime": 1054,
+      "price": 249
+    },
+    {
+      "id": 679,
+      "flightCode": "SYD-LAX",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T13:58:27.785Z",
+      "flightTime": 76,
+      "price": 447
+    },
+    {
+      "id": 383,
+      "flightCode": "LHR-IST",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T08:01:34.949Z",
+      "flightTime": 1159,
+      "price": 480
+    },
+    {
+      "id": 65,
+      "flightCode": "IST-SYD",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T00:55:06.775Z",
+      "flightTime": 733,
+      "price": 150
+    },
+    {
+      "id": 358,
+      "flightCode": "LHR-PEK",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T05:05:50.726Z",
+      "flightTime": 983,
+      "price": 227
+    },
+    {
+      "id": 80,
+      "flightCode": "LHR-YYZ",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T03:51:59.456Z",
+      "flightTime": 909,
+      "price": 528
+    },
+    {
+      "id": 137,
+      "flightCode": "DXB-YYZ",
+      "departureAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T19:30:26.933Z",
+      "flightTime": 408,
+      "price": 539
+    },
+    {
+      "id": 876,
+      "flightCode": "LAX-JNB",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T07:32:51.821Z",
+      "flightTime": 1130,
+      "price": 131
+    },
+    {
+      "id": 657,
+      "flightCode": "CDG-YYZ",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T04:50:48.270Z",
+      "flightTime": 968,
+      "price": 437
+    },
+    {
+      "id": 552,
+      "flightCode": "CDG-JNB",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T14:25:03.341Z",
+      "flightTime": 103,
+      "price": 144
+    },
+    {
+      "id": 621,
+      "flightCode": "PEK-YYZ",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T10:57:51.335Z",
+      "flightTime": 1335,
+      "price": 516
+    },
+    {
+      "id": 774,
+      "flightCode": "IST-PEK",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T16:07:10.130Z",
+      "flightTime": 205,
+      "price": 479
+    },
+    {
+      "id": 672,
+      "flightCode": "JNB-HND",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T02:23:11.799Z",
+      "flightTime": 821,
+      "price": 106
+    },
+    {
+      "id": 285,
+      "flightCode": "HND-YYZ",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T16:16:22.077Z",
+      "flightTime": 214,
+      "price": 593
+    },
+    {
+      "id": 821,
+      "flightCode": "JNB-PEK",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T04:21:41.997Z",
+      "flightTime": 939,
+      "price": 577
+    },
+    {
+      "id": 884,
+      "flightCode": "CDG-IST",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T02:58:37.652Z",
+      "flightTime": 856,
+      "price": 123
+    },
+    {
+      "id": 15,
+      "flightCode": "PEK-LAX",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T11:13:41.267Z",
+      "flightTime": 1351,
+      "price": 501
+    },
+    {
+      "id": 733,
+      "flightCode": "SYD-LAX",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T09:50:46.174Z",
+      "flightTime": 1268,
+      "price": 147
+    },
+    {
+      "id": 576,
+      "flightCode": "LHR-CDG",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T14:37:50.258Z",
+      "flightTime": 115,
+      "price": 581
+    },
+    {
+      "id": 796,
+      "flightCode": "IST-DXB",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T22:56:49.426Z",
+      "flightTime": 614,
+      "price": 335
+    },
+    {
+      "id": 886,
+      "flightCode": "HND-LHR",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T10:20:09.905Z",
+      "flightTime": 1298,
+      "price": 443
+    },
+    {
+      "id": 944,
+      "flightCode": "LAX-IST",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T07:38:38.700Z",
+      "flightTime": 1136,
+      "price": 415
+    },
+    {
+      "id": 397,
+      "flightCode": "JNB-LHR",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T18:27:15.606Z",
+      "flightTime": 345,
+      "price": 233
+    },
+    {
+      "id": 638,
+      "flightCode": "SYD-PEK",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T22:41:24.010Z",
+      "flightTime": 599,
+      "price": 578
+    },
+    {
+      "id": 156,
+      "flightCode": "CDG-SYD",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T15:19:30.720Z",
+      "flightTime": 157,
+      "price": 390
+    },
+    {
+      "id": 169,
+      "flightCode": "YYZ-PEK",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T02:53:55.612Z",
+      "flightTime": 851,
+      "price": 222
+    },
+    {
+      "id": 152,
+      "flightCode": "SYD-LHR",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T09:12:33.411Z",
+      "flightTime": 1230,
+      "price": 523
+    },
+    {
+      "id": 24,
+      "flightCode": "JNB-PEK",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T18:49:22.840Z",
+      "flightTime": 367,
+      "price": 210
+    },
+    {
+      "id": 334,
+      "flightCode": "LHR-JNB",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T14:48:27.085Z",
+      "flightTime": 126,
+      "price": 535
+    },
+    {
+      "id": 295,
+      "flightCode": "LHR-HND",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T09:49:06.343Z",
+      "flightTime": 1267,
+      "price": 529
+    },
+    {
+      "id": 36,
+      "flightCode": "JNB-HND",
+      "departureAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T02:37:39.135Z",
+      "flightTime": 835,
+      "price": 278
+    },
+    {
+      "id": 589,
+      "flightCode": "YYZ-IST",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T07:29:48.299Z",
+      "flightTime": 1127,
+      "price": 460
+    },
+    {
+      "id": 55,
+      "flightCode": "PEK-JNB",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T17:45:58.744Z",
+      "flightTime": 303,
+      "price": 452
+    },
+    {
+      "id": 159,
+      "flightCode": "LAX-HND",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T06:46:09.424Z",
+      "flightTime": 1084,
+      "price": 214
+    },
+    {
+      "id": 956,
+      "flightCode": "IST-JNB",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T20:36:43.563Z",
+      "flightTime": 474,
+      "price": 386
+    },
+    {
+      "id": 446,
+      "flightCode": "IST-LHR",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T08:43:06.178Z",
+      "flightTime": 1201,
+      "price": 577
+    },
+    {
+      "id": 421,
+      "flightCode": "PEK-IST",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T14:02:30.912Z",
+      "flightTime": 80,
+      "price": 380
+    },
+    {
+      "id": 831,
+      "flightCode": "PEK-JNB",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T08:37:56.300Z",
+      "flightTime": 1195,
+      "price": 242
+    },
+    {
+      "id": 194,
+      "flightCode": "YYZ-LAX",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T09:10:55.707Z",
+      "flightTime": 1228,
+      "price": 378
+    },
+    {
+      "id": 149,
+      "flightCode": "HND-IST",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T01:17:50.811Z",
+      "flightTime": 755,
+      "price": 113
+    },
+    {
+      "id": 906,
+      "flightCode": "CDG-DXB",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T10:03:14.681Z",
+      "flightTime": 1281,
+      "price": 234
+    },
+    {
+      "id": 717,
+      "flightCode": "DXB-CDG",
+      "departureAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T23:27:04.700Z",
+      "flightTime": 645,
+      "price": 161
+    },
+    {
+      "id": 89,
+      "flightCode": "IST-YYZ",
+      "departureAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T22:33:46.493Z",
+      "flightTime": 591,
+      "price": 241
+    },
+    {
+      "id": 875,
+      "flightCode": "LAX-SYD",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T16:15:29.856Z",
+      "flightTime": 213,
+      "price": 487
+    },
+    {
+      "id": 524,
+      "flightCode": "HND-IST",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T17:59:27.557Z",
+      "flightTime": 317,
+      "price": 287
+    },
+    {
+      "id": 836,
+      "flightCode": "YYZ-LHR",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T21:01:37.998Z",
+      "flightTime": 499,
+      "price": 224
+    },
+    {
+      "id": 622,
+      "flightCode": "LHR-PEK",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T16:52:06.533Z",
+      "flightTime": 250,
+      "price": 494
+    },
+    {
+      "id": 84,
+      "flightCode": "PEK-YYZ",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T21:42:09.388Z",
+      "flightTime": 540,
+      "price": 349
+    },
+    {
+      "id": 365,
+      "flightCode": "HND-LHR",
+      "departureAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "arrivalAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T22:24:00.872Z",
+      "flightTime": 582,
+      "price": 271
+    },
+    {
+      "id": 61,
+      "flightCode": "CDG-HND",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T08:49:04.491Z",
+      "flightTime": 1207,
+      "price": 104
+    },
+    {
+      "id": 296,
+      "flightCode": "SYD-DXB",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T00:51:53.630Z",
+      "flightTime": 729,
+      "price": 144
+    },
+    {
+      "id": 266,
+      "flightCode": "LAX-CDG",
+      "departureAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T03:49:43.897Z",
+      "flightTime": 907,
+      "price": 415
+    },
+    {
+      "id": 297,
+      "flightCode": "SYD-DXB",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T11:53:00.458Z",
+      "flightTime": 1391,
+      "price": 468
+    },
+    {
+      "id": 253,
+      "flightCode": "DXB-LAX",
+      "departureAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "name": "Los Angeles International Airport",
+        "code": "LAX",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T08:22:32.187Z",
+      "flightTime": 1180,
+      "price": 556
+    },
+    {
+      "id": 249,
+      "flightCode": "LHR-SYD",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T12:26:01.732Z",
+      "flightTime": 1424,
+      "price": 493
+    },
+    {
+      "id": 980,
+      "flightCode": "LHR-DXB",
+      "departureAirport": {
+        "id": 3,
+        "name": "Heathrow Airport",
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T20:09:31.362Z",
+      "flightTime": 447,
+      "price": 503
+    },
+    {
+      "id": 917,
+      "flightCode": "PEK-DXB",
+      "departureAirport": {
+        "id": 9,
+        "name": "Beijing Capital International Airport",
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "China"
+      },
+      "arrivalAirport": {
+        "id": 6,
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T18:50:22.307Z",
+      "flightTime": 368,
+      "price": 492
+    },
+    {
+      "id": 402,
+      "flightCode": "CDG-IST",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 1,
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T10:05:45.071Z",
+      "flightTime": 1283,
+      "price": 554
+    },
+    {
+      "id": 352,
+      "flightCode": "CDG-JNB",
+      "departureAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "id": 8,
+        "name": "Johannesburg O.R. Tambo International Airport",
+        "code": "JNB",
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T17:36:56.005Z",
+      "flightTime": 294,
+      "price": 193
+    },
+    {
+      "id": 961,
+      "flightCode": "SYD-HND",
+      "departureAirport": {
+        "id": 7,
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "city": "Sydney",
+        "country": "Australia"
+      },
+      "arrivalAirport": {
+        "id": 5,
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-12T08:52:14.535Z",
+      "flightTime": 1210,
+      "price": 214
+    },
+    {
+      "id": 522,
+      "flightCode": "YYZ-CDG",
+      "departureAirport": {
+        "id": 10,
+        "name": "Toronto Pearson International Airport",
+        "code": "YYZ",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "arrivalAirport": {
+        "id": 4,
+        "name": "Charles de Gaulle Airport",
+        "code": "CDG",
+        "city": "Paris",
+        "country": "France"
+      },
+      "departureDate": "2023-10-11T12:42:29.458Z",
+      "arrivalDate": "2023-10-11T15:45:28.113Z",
+      "flightTime": 183,
+      "price": 311
+    }
+  ]
+}

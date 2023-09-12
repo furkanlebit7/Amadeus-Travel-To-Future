@@ -33,7 +33,8 @@ const FlightList = () => {
       {!flights.isOneWay && flights.status === "succeeded" && (
         <p className="text-second font-medium mt-5">Return</p>
       )}
-      {flights.status === "succeeded" &&
+      {!flights.isOneWay &&
+        flights.status === "succeeded" &&
         flights.filteredReturnList.map((flight) => (
           <ListCard key={flight.id} flight={flight} />
         ))}

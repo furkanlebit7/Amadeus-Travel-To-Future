@@ -24,7 +24,7 @@ const Navbar = () => {
           className="text-xl text-second cursor-pointer"
           onClick={() => handleTheme()}
         >
-          {!theme ? <BsSun /> : <BsMoon />}
+          {!theme ? <BsSun /> : <BsMoon className="text-main" />}
         </p>
       </div>
     </nav>
